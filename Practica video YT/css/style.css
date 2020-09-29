@@ -1,0 +1,212 @@
+/*
+HTML TAGS
+*/
+
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto';
+}
+
+header{
+    width: 100%;
+}
+
+/* positioning: position, z-index, bottom, top, left, right */
+/* display & box model: display, overflow, box-sizing, width, height, padding, margin, border */
+/* color: background, color */
+/* text: font-family, font-size, line-height, text-align */
+/* other: cursor */
+
+/*
+CLASSES Genericas
+*/
+
+.secondary-title{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+/* NAV */
+.top-bar{
+    width: 100%;
+    padding: .5em 0 3em;
+    background: #181b1e;
+}
+
+.logo{
+    float: left;
+    margin: .5em 0 0 3em;
+  
+}
+
+
+.top-nav{
+    padding: 0%;
+    margin: 0;
+    float: right;
+}
+
+.top-nav-item{
+    display: inline-block;
+    margin: 0 .5em;
+
+}
+
+.top-nav-link{
+    display: block;
+    font-weight: 300;
+    color: #aaabab;
+    text-decoration: none;
+    padding-bottom: .8em;
+
+}
+
+.top-nav-link:hover{
+    color: #fff;
+    border-bottom: .2em solid #f44336;
+                /* grosor */
+}
+
+.request-btn{
+    display: block;
+    padding: .5em;
+    border: .2em solid #00bad2;
+    font-weight: 300;
+    text-transform: uppercase; /* pone todo mayuscula */
+    color: white;
+    text-decoration: none;
+ 
+}
+.request-btn:hover{
+    background: #00bad2;
+}
+
+/* INTRO */
+.intro-section{
+    width: 100%;
+    padding: .5em 0;
+    background: url(../images/mountain-bg.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.intro-title{
+    padding: 0 1.5em;
+    color: white;
+    font-weight: 100;
+    font-size: 4em;
+    text-align: center;
+}
+
+.download-btn{
+    display: block;
+    margin: auto;
+    width: 8em;
+    padding: 1em;
+    border-radius: .2em;
+    text-align: center;
+    background: #f44336;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.btn-label{
+    margin: 0 0 0 .5em;
+}
+
+
+/* ABOUT */
+.about-section{
+    padding: 2em 5em;
+    background: #f2f2f2;
+    color: #212121;
+    text-align: center;
+}
+
+.about-intro{
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.about-text{
+    font-weight: 300;
+
+}
+/* QUOTE */
+.quote-section{
+    padding: 6em 15em;
+    background: url(../images/quote-bg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.quote-text{
+    font-weight: 100;
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.quote-author{
+    font-weight: 300;
+    font-size: 1em;
+    color: #00bad2;
+}
+/* CONTACT */
+
+.contact-section{
+    padding: 2em 5em;
+    background: #f2f2f2;
+    color: #212121;
+    text-align: center;
+}
+
+.contact-form{
+    width: 90%;
+    margin: auto;
+}
+
+.row{
+    width: 100%;
+}
+.col{
+    width:50%;
+    float: left;
+}
+
+.input-text{
+    width: 90%;
+    padding: 1em;
+}
+.text-area{
+    width: 95%;
+    height: 10em;
+    margin: 2em 0;
+    padding: 1em;
+    font-family: 'Roboto';
+}
+
+.submit-btn{
+    width: 98%;
+    background: #f2f2f2;
+    border: .2em solid #00bad2;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background: #00bad2;
+    color: white;
+}
+
+
+
+
+/* FOOTER */
