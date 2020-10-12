@@ -1,0 +1,148 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/**** Top ****/
+.top {
+    width: 100%;
+    background: black;
+    height: 3.5em;
+    position: fixed;
+    z-index: 99;
+}
+
+.imgTop {
+    display: inline-block;
+    position: absolute;
+    width: 4em;
+    color: white;
+    left: 1.3em;
+
+}
+
+.name {
+    display: inline-block;
+    position: absolute;
+    left: 3.2em;
+    font-size: 1.5em;
+    color: white;
+}
+
+/**** TopNav ****/
+
+.topNav {
+    position: absolute;
+    display: inline-block;
+    right: 1.5em;
+    top: -.5em;
+}
+
+.topNavItem {
+    display: inline-block;
+    position: relative;
+    font-size: 1.2em;
+
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    padding-bottom: .2em;
+}
+
+.links:hover {
+    border-bottom: .2em solid red;
+}
+
+#profilePic {
+    position: relative;
+    width: 3em;
+    clip-path: circle(40% at 50% 50%);
+}
+
+/**** TopNav ****/
+/**** Top ****/
+/**** Admin ****/
+
+.pageAdmin {
+    padding-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(2, 49.45%);
+    grid-auto-rows: minmax(150px, auto);
+    gap: 1em;
+
+}
+
+/**** Zoom ****/
+.zoom {
+
+    height: 22em;
+}
+
+/**** Zoom ****/
+/**** Images ****/
+.images {
+    grid-row: span 2;
+    height: 45.5em;
+
+}
+.imgText{
+    position: absolute;
+    top: 6%;
+}
+
+.imgGal {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    bottom: 1.2%;
+    height: 42em;
+    overflow-y: scroll;
+}
+.img{
+    width: 90%;
+    margin-top: .5em;
+}
+/**** Images ****/
+/**** Participants ****/
+.participants {
+
+    height: 22em;
+    
+}
+.parTitle{
+    position: relative;
+    left: 2%;
+    
+}
+.list{
+    height: 17em;
+    overflow-y: scroll;
+}
+.listPar{
+    
+display: flex;
+left: 0%;
+right: 0%;
+width: 100%;
+border-bottom: .2em solid rgb(104, 104, 104);
+}
+.listPar:hover{
+    background: rgb(194, 194, 194);
+}
+.listItem{
+    font-size: 1.2em;
+    margin: auto;
+    margin-left: 1em;
+    margin-right: 1em;     
+}
+.profilePar{
+    top: 0%;
+    width: 3em;
+    clip-path: circle(40% at 50% 50%);
+}
+
+/**** Participants ****/
+/**** Admin ****/
