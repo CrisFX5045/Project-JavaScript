@@ -1,9 +1,174 @@
-<<<<<<< HEAD
-HOLA AMIGOS FUNCIONO
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Concurso Fotografico</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="top-bar">
+
+            <span class="mob-menu fas fa-bars" onclick="openMobileMenu()"></span>
+            <a class="logo" href="#">
+                <img src="./images/logo.png" alt="Logo">
+            </a>
+
+            <ul class="top-nav">
+                <span class="mob-close fas fa-window-close" onclick="closeMobileMenu()"></span>
+
+                <li class="top-nav-item"><a class="top-nav-link" href="#">Explora</li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">Favoritas</a></li>
+
+            </ul>
+        </nav>
+        <section class="intro-section">
+            <h1 class="intro-title">Las mejores fotografías tomadas por artistas talentosos</h1>
+            <a class="download-btn" href="#"><i></i><span class="btn-label">Busca Fotos o
+                    Fotografos</span></a>
+            <!--<button onclick="change();">Change this text</button>-->
+            <ul class="top-nav">
+                <span class="mob-close fas fa-window-close" onclick="closeMobileMenu()"></span>
+
+                <li class="top-nav-item"><a class="top-nav-link" href="#">Todo</li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">Aerea</a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">Naturaleza</li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">Paisajes</a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#">Personas</li>
 
 
-=======
-123456789
-qwertyuioppoiuytre
->>>>>>> be207e32896bd4ed5a8003ebcc38e3d1337af921
-hdvhsvfhadghfgahfha
+        </section>
+    </header>
+    <!-- header -->
+
+    <!-- about -->
+    <section class="about-section">
+        <div class="contenedor">
+        <p class="secondary-title ">Sube las mejores fotos de tu stock y compartelo a talentosos creadores,</p>
+        <div class="row">
+            <input class="submit-btn download-btn " type="submit" value="INICIAR SECCION">
+        </div>
+        <div class="row">
+            <input class="submit-btn download-btn" type="submit" value="REGISTRARSE">
+        </div>
+
+    </section>
+    <!-- about -->
+
+    <!-- quote  -->
+    <section class="quote-section">
+        <h2 class="secondary-title">Publicar Foto</h2>
+        <!-- icon -->
+        <span class="fa-stack fa-2x">
+        
+            <i class="fas fa-photo-video"></i>
+
+        </span>
+        <form class="datos" action="">
+            <div class="contenedor">
+                <div>
+                    <input class="submit-btn download-btn" type="submit" value="Añade tu foto">
+                </div>
+
+                <div class="input-contenedor">
+                    <input  type="text" placeholder="Titulo de la foto">
+                </div>
+                <div class="input-contenedor">
+                    <input type="text" placeholder="Descripción">
+                </div>
+
+                <div class="input-contenedor">
+                    <input type="text" placeholder="Categoria">
+                </div>
+
+            </div>
+
+    </section>
+    <!-- quote  -->
+
+    <!-- contact -->
+    <section class="contact-section">
+
+
+
+        <form class="formulario">
+
+            <h2>Login</h2>
+            <div class="contenedor">
+
+                <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="text" placeholder="Correo Electronico">
+
+                </div>
+
+                <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                    <input type="password" placeholder="Contraseña">
+
+                </div>
+                <input type="submit" value="Login" class="button">
+                <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+                <p>¿No tienes una cuenta? <a class="link" href="#">Registrate </a></p>
+            </div>
+        </form>
+        <form class="formulario">
+
+            <h1>Registrate</h1>
+            <div class="contenedor">
+
+                <div class="input-contenedor">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" placeholder="Nombre Completo">
+
+                </div>
+
+                <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="text" placeholder="Correo Electronico">
+
+                </div>
+
+                <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                    <input type="password" placeholder="Contraseña">
+
+                </div>
+                <input type="submit" value="Registrate" class="button">
+                <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+                <p>¿Ya tienes una cuenta?<a class="link" href="">Iniciar Sesion</a></p>
+            </div>
+        </form>
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <footer>
+        <nav>
+            <ul class="bottom-nav">
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fas fa-envelope"></i></a></li>
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-dribbble"></i></a></li>
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="bottom-nav-item"><a class="footer-link" href="#"><i class="fab fa-behance"></i></a></li>
+            </ul>
+        </nav>
+        <hr>
+        <p class="footer-disclaimer">2020 All Rights Reserved.</p>
+    </footer>
+    <!-- footer -->
+
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
