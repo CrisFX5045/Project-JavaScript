@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b1ae9d2f5.js" crossorigin="anonymous"></script>
+    <title>Galeria</title>
+</head>
+
+<body>
+    
+    <header>
+        <Section class="top">
+            <img src="images/LogoFotografia.png" alt="logo" class="img">
+            <h2 class="name">Pixely</h2>
+            <span class="mobMenu fas fa-bars" onclick="mobMenuShow()"></span>
+            <ul class="topNav">
+                <span class="mobMenuClose fas fa-times" onclick="mobMenuClose()"></span>
+                <li class="topNavItem">
+                    <a class="links" id="explora" href="FrontEnd/50Mejores/index.html">Explora</a>
+                </li>
+                <li class="topNavItem">
+                    <a class="links" id="favoritos" href="#">Favoritos</a>
+                </li>
+                <li class="topNavItem">
+                    <a class="links fas fa-bell" id="notifications" href="#"></a>
+                </li>
+    
+                <li class="topNavItem">
+                    <img id="profilePic" src="images/pexels-tarzine-jackson-773371.jpg" alt="ProfilePic">
+                </li>
+                <li class="topNavItem">
+                    <a class="links fas fa-angle-down" id="moreOptions" href="#"></a>
+                </li>
+            </ul>
+        </Section>
+        <div class="title">
+            <h1>Las Mejores Fotografias Tomandas Por Artistas Talentosos</h1>
+        </div>
+
+        <div class="buscador">
+            <input class="inputBuscador" placeholder="Buscar Fotos o fotografos"></input>
+            <div class="separador"></div>
+            <a href="#" class="buscar fas fa-search"></a>
+        </div>
+    </header>
+    <Section class="search">
+        <h2 class="searchTerm">Naturaleza</h2>
+        <div class="searchSeparator"></div>
+    </Section>
+    <section class="galery">
+        <div class="Con"><img src="images/WomanFace.jpg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images/MountainLandscape.jpg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images/cityLandscape.jpeg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images/City.jpg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images//WomanEye.jpeg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images/lake.jpg" class="imgGal" alt=""></div>
+        
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
