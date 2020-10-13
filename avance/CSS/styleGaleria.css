@@ -74,7 +74,7 @@
 header{
     position: relative;
     padding-bottom: 15em;
-    background: url("images/Fondo-50Mejores.jpg");
+    background: url(../images/pexels-photo-408518.jpeg);
     background-size: cover;
     background-position: center;
   
@@ -85,7 +85,7 @@ header::before{
     height: 100%;
     content: '';
     background: black;
-    opacity: .70;
+    opacity: .65;
 }
 .title{
     position: relative;
@@ -177,6 +177,7 @@ input.inputBuscador{
     margin-left: .3em;
     margin-right: .3em;
     align-self: flex-start;
+    border-radius: 1%;
 }
 
 
