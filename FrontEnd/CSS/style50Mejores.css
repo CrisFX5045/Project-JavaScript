@@ -231,37 +231,46 @@ input.inputBuscador{
         font-size: 1.45em;
     }
 
-    .buscar{
-        font-size: 1em;
-    }
     .buscador{
         height: 3em;
     }
     input.inputBuscador{
         font-size: 1.5em;
-        width: 5.5em;
-        border: currentColor;
+        right: 8%;
+        width: 70%;
+
     }
     .separador{
         right: 3%;
         height: 2em;
     }
+
     /**** header ****/
     /**** Galery ****/
     .imgGal{
-        width: 97%;
+        width: 100%;
     }
     /**** Galery ****/
 
 }
 @media (max-width: 1025px){
  /**** header ****/
+ .title{
+     font-size: 3em;
+ }
  input.inputBuscador{
     right: .5%;
     
  }
  .buscar{
+     font-size: 2em;
      right: 2%;
  }
+
 /**** header ****/
+/**** Galeria ****/
+.imgGal{
+   width: 21em; 
+}
+/**** Galeria ****/
 }

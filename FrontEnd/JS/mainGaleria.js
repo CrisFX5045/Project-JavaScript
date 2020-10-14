@@ -5,5 +5,5 @@ function mobMenuShow(){
 AOS.init();
 function mobMenuClose(){
     let menu = document.body.getElementsByClassName('topNav')[0];
-    menu.style.right = "-50%";
+    menu.style.right = "-60%";
 }

@@ -16,45 +16,43 @@
 
     <!-- header -->
     <header>
-        <nav class="top-bar">
-
-            <span class="mob-menu fas fa-bars" onclick="openMobileMenu()"></span>
-            <a class="logo" href="#">
-                <img src="./images/logo.png" alt="Logo">
-            </a>
-
-            <ul class="top-nav">
-                <span class="mob-close fas fa-window-close" onclick="closeMobileMenu()"></span>
-
-                <li class="top-nav-item"><a class="top-nav-link" href="#">Explora</a></li>
-                <li class="top-nav-item"><a class="top-nav-link" href="#">Favoritas</a></li>
-
+        <Section class="top">
+            <img src="images/LogoFotografia.png" alt="logo" class="img">
+            <h2 class="name">Pixely</h2>
+            <span class="mobMenu fas fa-bars" onclick="mobMenuShow()"></span>
+            <ul class="topNav">
+                <span class="mobMenuClose fas fa-times" onclick="mobMenuClose()"></span>
+                <li class="topNavItem">
+                    <a class="links" id="explora" href="FrontEnd/50Mejores/index.html">Explora</a>
+                </li>
+                <li class="topNavItem">
+                    <a class="links" id="favoritos" href="#">Favoritos</a>
+                </li>
+                <li class="topNavItem">
+                    <a class="links fas fa-bell" id="notifications" href="#"></a>
+                </li>
+    
+                <li class="topNavItem">
+                    <img id="profilePic" src="images/pexels-tarzine-jackson-773371.jpg" alt="ProfilePic">
+                </li>
+                <li class="topNavItem">
+                    <a class="links fas fa-angle-down" id="moreOptions" href="#"></a>
+                </li>
             </ul>
-        </nav>
-        <section class="intro-section">
-            <div class="contenedor">
-                <h1 data-aos="zoom-in" class="intro-title">Las mejores fotografías tomadas por artistas talentosos</h1>
-                <a class="download-btn" href="#"><i></i><span class="btn-label">Busca Fotos o
-                        Fotografos</span></a>
-               
+        </Section>
 
+        <div class="title" data-aos="zoom-in-right">
+            <h1>Las Mejores Fotografias Tomandas Por Artistas Talentosos</h1>
+        </div>
 
-
-        </section>
+        <div class="buscador">
+            <input class="inputBuscador" placeholder="Buscar Fotos o fotografos"></input>
+            <div class="separador"></div>
+            <a href="#" class="buscar fas fa-search"></a>
+        </div>
     </header>
     <!-- header -->
     <!-- Barra tipo foto-->
-    <div class="barra2">
-        <span class="mob-close" onclick="closeMobileMenu()"></span>
-
-        <li class="top-nav-item"><a class="top-nav-link" href="#">Todo</a></li>
-        <li class="top-nav-item"><a class="top-nav-link" href="#">Aerea</a></li>
-        <li class="top-nav-item"><a class="top-nav-link" href="#">Naturaleza</a></li>
-        <li class="top-nav-item"><a class="top-nav-link" href="#">Paisajes</a></li>
-        <li class="top-nav-item"><a class="top-nav-link" href="#">Personas</a></li>
-
-
-    </div>
     <!-- about -->
     <section class="about-section">
         <div class="contenedor">
@@ -119,7 +117,7 @@
     <!-- footer -->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="JS/mainGaleria.js"></script>
 
 </body>
 

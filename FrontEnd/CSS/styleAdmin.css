@@ -66,7 +66,6 @@ body {
 /**** Admin ****/
 
 .pageAdmin {
-    padding-top: 4%;
     display: grid;
     grid-template-columns: repeat(2, 49.45%);
     grid-auto-rows: minmax(150px, auto);
@@ -75,29 +74,27 @@ body {
 }
 
 /**** Zoom ****/
-.zoom {
-
-    height: 22em;
+.zoom{
+    height: 21em;
 }
-
 /**** Zoom ****/
 /**** Images ****/
 .images {
     grid-row: span 2;
-    height: 45.5em;
+    height: 42em;
 
 }
 .imgText{
-    position: absolute;
+    position: relative;
     top: 6%;
 }
 
 .imgGal {
     display: flex;
-    position: absolute;
+    position: relative;
     flex-direction: column;
     align-items: center;
-    bottom: 1.2%;
+    top: 5%;
     height: 42em;
     overflow-y: scroll;
 }
@@ -108,8 +105,7 @@ body {
 /**** Images ****/
 /**** Participants ****/
 .participants {
-
-    height: 22em;
+    height: 21em;
     
 }
 .parTitle{
@@ -118,7 +114,7 @@ body {
     
 }
 .list{
-    height: 17em;
+    height: 21em;
     overflow-y: scroll;
 }
 .listPar{
@@ -146,3 +142,28 @@ border-bottom: .2em solid rgb(104, 104, 104);
 
 /**** Participants ****/
 /**** Admin ****/
+@media (max-width: 1025px){
+    .imgGal{
+        top: 7%;
+        height: 41em;
+    }
+    .participants{
+        height: 21em;
+    }
+    
+}
+@media (max-width: 545px){
+.pageAdmin{
+    display: block;
+}
+.imgGal{
+    top: 2%;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.img{
+    width: auto;
+    height: 38em;
+    margin-left: .5em;
+}
+}
