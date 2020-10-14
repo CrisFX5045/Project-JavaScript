@@ -15,10 +15,12 @@ body{
 .contenedor{
     width: 100%;
     padding: 15px;
-    
+}  
 header{
     width: 100%;
 }
+
+
 input{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -32,7 +34,7 @@ input{
     padding: 3px;
     background:url(/images/pexels-francesca-zama-5339066.jpg);
 }
-}
+
 h1{
     text-align: center;
     color: #1a2537;
@@ -99,15 +101,7 @@ hr{
     background: #ffc36e;
 }
 
-/* positioning: position, z-index, bottom, top, left, right */
-/* display & box model: display, overflow, box-sizing, width, height, padding, margin, border */
-/* color: background, color */
-/* text: font-family, font-size, line-height, text-align */
-/* other: cursor */
 
-/*
-CLASSES
-*/
 .secondary-title{
     text-transform: uppercase;
     font-weight: 300;
