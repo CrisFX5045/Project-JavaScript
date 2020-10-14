@@ -5,31 +5,33 @@
 	<title></title> 
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.1.1/validator.min.js"></script>
+ <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 	<link rel="stylesheet" href="./css/styleRegisterLogin.css">
 	
 
 </head>  
 <body>
- <form class="formulario">
+ <form class="formulario" action="" onsubmit="return checkForm(this);">
     
-    <h1>Registrate</h1>
+    <h1 data-aos="zoom-in">Registrate</h1>
      <div class="contenedor">
      
      <div class="input-contenedor">
          <i class="fas fa-user icon"></i>
-         <input type="text" placeholder="Nombre Completo">
+         <input type="text" id="name" placeholder="Nombre Completo">
          
          </div>
          
          <div class="input-contenedor">
          <i class="fas fa-envelope icon"></i>
-         <input type="text" placeholder="Correo Electronico">
+         <input type="text" id="email" placeholder="Correo Electronico">
          
          </div>
          
          <div class="input-contenedor">
         <i class="fas fa-key icon"></i>
-         <input type="password" placeholder="Contraseña">
+         <input type="password" id="password" placeholder="Contraseña">
          
          </div>
          <input type="submit" value="Registrate" class="button">
@@ -37,5 +39,8 @@
          <p>¿Ya tienes una cuenta?<a class="link" href="IndexLogin.html">Iniciar Sesion</a></p>
      </div>
     </form>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="JS/mainRegistro.js"></script>
 </body>
 </html>

@@ -8,6 +8,10 @@ body {
 * {
     box-sizing: border-box;
 }
+.error {
+    background-color: #ffffdd;
+    border: 2px solid #D8000C;
+}
 .contenedor{
     width: 100%;
     padding: 15px;
