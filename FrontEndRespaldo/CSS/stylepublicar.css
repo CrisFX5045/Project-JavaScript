@@ -1,0 +1,141 @@
+/*
+HTML TAGS
+*/
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto';
+  
+}
+.quote-section{
+    padding: 4em;
+    background: url(../images/pexels-photo-3957582.jpeg);
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    
+}
+.quote-icon{
+    color:white;
+}
+
+.quote-text{
+    font-weight: bold;
+    color: #fff;
+    font-size:xx-large;
+    text-align: center;
+}
+.quote-text2{
+    font-weight: bold;
+    color: #fff;
+    font-size:xx-large;
+    text-align: left;
+}
+
+.submit-btn{
+    width: 32%;
+    background: #f2f2f200;
+    border: .1em solid #00bad2;
+    padding: 1em;
+    cursor: pointer;
+    color:#00bad2;
+}
+.submit-btn:hover{
+    background: #00bad2;
+    color: #fff;
+}
+
+.download-btn{
+    display: block;
+    margin: auto;
+    width: 17em;
+    padding: 0.60em;
+    border-radius: 1.2em;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    color:black;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0.5em;
+}
+
+/*registra foto*/
+.formulario{
+    background: none;
+    margin-top: 71px;
+    border-top: grey;
+    
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    height: 260px;
+    border-style: dashed;
+    border-width: 3px; 
+    color:white;
+  
+}
+.forpub{
+    height: 55px;
+    width: 100%;
+    background: none;
+    border-top: white;
+    border-left: aliceblue;
+    border-right: aliceblue;
+    color:white; 
+}
+.publica-text{
+    
+    color: #fff;
+    font-size:1.5em;
+
+}
+
+.secondary-title{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+    color: white;
+}
+
+
+
+
+/*menu*/
+/* MEDIA QUERIES */
+@media (max-width: 575.98px) {
+    
+    .mobMenuClose{
+        position: absolute;
+        font-size: 1.5em;
+        top: .5em;
+        right: .5em;
+        color: white;
+    }
+    .mobMenu{
+        position: absolute;
+        top: .5em;
+        left: 90%;
+        font-size: 1.5em;
+    }
+     
+       
+    .separador{
+        right: 3%;
+        height: 2em;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+}
