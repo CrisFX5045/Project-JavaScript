@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="CSS/styleGaleria.css">
+    <script src="https://kit.fontawesome.com/3b1ae9d2f5.js" crossorigin="anonymous"></script>
+    <title>Galeria</title>
+</head>
+
+<body>
+    
+    <header>
+        <Section class="top">
+            <img src="images/LogoFotografia.png" alt="logo" class="img">
+            <h2 class="name">Pixely</h2>
+            <span class="mobMenu fas fa-bars" onclick="mobMenuShow()"></span>
+            <ul class="topNav">
+                <span class="mobMenuClose fas fa-times" onclick="mobMenuClose()"></span>
+                <li class="topNavItem">
+                    <a class="links" id="explora" href="FrontEnd/50Mejores/index.html">Explora</a>
+                </li>
+                <li class="topNavItem">
+                    <a class="links" id="favoritos" href="#">Favoritos</a>
+                </li>
+                <li class="topNavItem">
+                    <a class="links fas fa-bell" id="notifications" href="#"></a>
+                </li>
+    
+                <li class="topNavItem">
+                    <img id="profilePic" src="images/pexels-tarzine-jackson-773371.jpg" alt="ProfilePic">
+                </li>
+                <li class="topNavItem">
+                    <a class="links fas fa-angle-down" id="moreOptions" href="#"></a>
+                </li>
+            </ul>
+        </Section>
+
+        <div class="title" data-aos="zoom-in-right">
+            <h1>Las Mejores Fotografias Tomandas Por Artistas Talentosos</h1>
+        </div>
+
+        <div class="buscador">
+            <input class="inputBuscador" placeholder="Buscar Fotos o fotografos"></input>
+            <div class="separador"></div>
+            <a href="#" class="buscar fas fa-search"></a>
+        </div>
+    </header>
+    <Section class="search">
+        <h2 class="searchTerm" data-aos="flip-left">Naturaleza</h2>
+        <div class="searchSeparator"></div>
+    </Section>
+    <section class="galery">
+        <div class="Con"><img src="images/pexels-francesca-zama-5339066.jpg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images//pexels-paul-ijsendoorn-33041.jpg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images/pexels-photo-2347011.jpeg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images/pexels-benjamin-suter-3617457.jpg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images/woman-girl-eye-models-39819.jpeg" class="imgGal" alt=""></div>
+        <div class="Con"><img src="images/pexels-pixabay-462162.jpg" class="imgGal" alt=""></div>
+        
+    </section>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="JS/mainGaleria.js"></script>
+</body>
+
+</html>
