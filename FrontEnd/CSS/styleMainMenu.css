@@ -71,143 +71,6 @@
 
 /**** Top ****/
 
-<<<<<<< Updated upstream
-/**** Top ****/
-.top {
-    width: 100%;
-    background: black;
-    height: 3.5em;
-    position: fixed;
-    z-index: 99;
-}
-.mobMenu{
-    position: absolute;
-    left: 100%;
-}
-.img {
-    display: inline-block;
-    position: absolute;
-    width: 4em;
-    color: white;
-    left: 1.3em;
-
-}
-
-.name {
-    display: inline-block;
-    position: absolute;
-    left: 3.2em;
-
-    font-size: 1.5em;
-    color: white;
-}
-
-/**** TopNav ****/
-.mobMenu {
-    color: white;
-    display: none;
-}
-
-.topNav {
-    position: absolute;
-    display: inline-block;
-    right: 1.5em;
-}
-
-.topNavItem {
-    display: inline-block;
-
-    margin-left: .5em;
-    font-size: 1.2em;
-
-}
-.links{
-    color: white;
-    text-decoration: none;
-    padding-bottom: .15em;
-}
-.links:hover{  
-    border-bottom: .2em solid red;
-}
-#profilePic {
-    position: relative;
-    margin-bottom: -.5em;
-    width: 3em;
-    clip-path: circle(40% at 50% 50%);
-}
-
-/**** TopNav ****/
-/**** Top ****/
-
-/**** Header ****/
-header{
-    position: relative;
-    padding-bottom: 15em;
-    background: url(../images/pexels-photo-408518.jpeg);
-    background-size: cover;
-    background-position: center;
-  
-}
-header::before{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background: black;
-    opacity: .65;
-}
-.title{
-    position: relative;
-    text-align: center;
-    width: 60%;
-    padding-top: 5em;
-    margin: auto;
-    font-size: 1.8em;
-    color: white;
-
-
-}
-.buscador{
-    position: relative;
-    margin: auto;
-    text-align: center;
-    background: hsla(0, 0%, 100%, 0.644);
-    width: 50%;
-    height: 3.5em;
-    border-radius: 1em;
-}
-.separador{
-    display: inline-block;
-    position: relative;
-    margin: auto;
-    height: 2.5em;
-    width: .2em;
-    top: 15%;
-    right: 4%;
-    background: hsla(0, 0%, 0%, 0.37);
-}
-
-input.inputBuscador{
-    display: inline-block;
-    position: relative;
-    background: none;
-    border: none;
-    width: 88%;
-    height: 2.2em;
-    right: 3%;
-    bottom: .15em;
-    font-size: 1.5em;
-}
-.buscar{
-    display: inline-block;
-    position: relative;
-   text-decoration: none;
-   color: hsla(0, 0%, 39%, 0.712); 
-   font-size: 200%;
-   
-}
-/**** Header ****/
-=======
 /**** Header ****/
 header{
     position: relative;
@@ -323,7 +186,6 @@ input.inputBuscador{
     font-size: xx-large;
     text-align: center;  
 }
->>>>>>> Stashed changes
 .download-btn{
     display: block;
     margin: auto;
@@ -374,120 +236,12 @@ input.inputBuscador{
 .footer-disclaimer{
     color: #626262;
 }
-<<<<<<< Updated upstream
-/*registra foto*/
-.formulario{
-    background: none;
-    margin-top: 71px;
-    border-top: grey;
-    
-}
-.input-contenedor{
-    margin-bottom: 15px;
-    height: 260px;
-    border-style: dashed;
-    border-width: 3px; 
-    color:white;
-  
-}
-.forpub{
-    height: 55px;
-    width: 100%;
-    background: none;
-    border-top: white;
-    border-left: aliceblue;
-    border-right: aliceblue;
-    color:white; 
-}
-.publica-text{
-    
-    color: #fff;
-    font-size:1.5em;
-
-}
-
-/*registra foto*/
-/* MEDIA QUERIES */
-@media (max-width: 575.98px) {
-=======
 /**** Galery ****/
 @media (max-width: 545px){
->>>>>>> Stashed changes
     /**** top ****/
     .top{
         overflow-y: visible;
         z-index: 6;
-<<<<<<< Updated upstream
-    }
-    .topNav{
-        display: block;
-        position: absolute;
-        background: rgb(29, 29, 29);
-        width: 100%;
-        height: 45em;
-        top: -30%;
-        width: 50%;
-        right: -80%;
-        transition: .5s;
-        
-    }
-    .topNavItem{
-        position: relative;
-        top: 1em;
-        font-size: 2em;
-        display: block;
-        align-content: center;
-        justify-content: center;
-        margin-bottom: 1.5em;
-    }
-    .mobMenuClose{
-        position: absolute;
-        font-size: 1.5em;
-        top: .5em;
-        right: .5em;
-        color: white;
-    }
-    .mobMenu{
-        display: block;
-        position: absolute;
-        top: .5em;
-        left: 90%;
-        font-size: 1.5em;
-        color: white;
-    }
-    /**** top ****/
-
-    /**** header ****/
-    header{
-        overflow: hidden;
-        padding-bottom: 8em;
-        
-    }
-    
-    .title{
-        padding-top: 35%;
-        font-size: 1.45em;
-    }
-
-    .buscar{
-        font-size: 1em;
-    }
-    .buscador{
-        height: 3em;
-    }
-    input.inputBuscador{
-        font-size: 1.5em;
-        width: 5.5em;
-        border: currentColor;
-    }
-    .separador{
-        right: 3%;
-        height: 2em;
-    }
-    /**** header ****/
-    .request-btn{
-        font-size: 1.3em;
-=======
     }
     .topNav{
         display: block;
@@ -518,7 +272,6 @@ input.inputBuscador{
         top: .5em;
         left: 90%;
         font-size: 1.5em;
->>>>>>> Stashed changes
     }
     /**** top ****/
 
@@ -529,10 +282,6 @@ input.inputBuscador{
         
     }
     
-<<<<<<< Updated upstream
-    .about-section{
-        padding: 2em 2em;
-=======
     .title{
         padding-top: 35%;
         font-size: 1.45em;
@@ -543,7 +292,6 @@ input.inputBuscador{
     }
     .buscador{
         height: 3em;
->>>>>>> Stashed changes
     }
     input.inputBuscador{
         font-size: 1.5em;
@@ -561,20 +309,6 @@ input.inputBuscador{
     }
     /**** Galery ****/
 
-<<<<<<< Updated upstream
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    /**** header ****/
- input.inputBuscador{
-    right: .5%;
-    
- }
- .buscar{
-     right: 2%;
- }
-/**** header ****/ 
-=======
->>>>>>> Stashed changes
 }
 @media (max-width: 1025px){
  /**** header ****/

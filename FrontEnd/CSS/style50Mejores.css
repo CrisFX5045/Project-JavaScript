@@ -93,7 +93,7 @@ header::before{
     width: 60%;
     padding-top: 5em;
     margin: auto;
-    font-size: 3.8em;
+    font-size: 1.8em;
     color: white;
 
 
@@ -231,46 +231,37 @@ input.inputBuscador{
         font-size: 1.45em;
     }
 
+    .buscar{
+        font-size: 1em;
+    }
     .buscador{
         height: 3em;
     }
     input.inputBuscador{
         font-size: 1.5em;
-        right: 8%;
-        width: 70%;
-
+        width: 5.5em;
+        border: currentColor;
     }
     .separador{
         right: 3%;
         height: 2em;
     }
-
     /**** header ****/
     /**** Galery ****/
     .imgGal{
-        width: 100%;
+        width: 97%;
     }
     /**** Galery ****/
 
 }
 @media (max-width: 1025px){
  /**** header ****/
- .title{
-     font-size: 3em;
- }
  input.inputBuscador{
     right: .5%;
     
  }
  .buscar{
-     font-size: 2em;
      right: 2%;
  }
-
 /**** header ****/
-/**** Galeria ****/
-.imgGal{
-   width: 21em; 
-}
-/**** Galeria ****/
 }
