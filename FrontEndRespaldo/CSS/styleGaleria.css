@@ -11,10 +11,12 @@
     position: fixed;
     z-index: 99;
 }
-.mobMenu{
+
+.mobMenu {
     position: absolute;
     left: 100%;
 }
+
 .img {
     display: inline-block;
     position: absolute;
@@ -52,14 +54,17 @@
     font-size: 1.2em;
 
 }
-.links{
+
+.links {
     color: white;
     text-decoration: none;
     padding-bottom: .5em;
 }
-.links:hover{  
+
+.links:hover {
     border-bottom: .2em solid red;
 }
+
 #profilePic {
     position: relative;
     margin-bottom: -.5em;
@@ -71,15 +76,16 @@
 /**** Top ****/
 
 /**** Header ****/
-header{
+header {
     position: relative;
     padding-bottom: 15em;
     background: url(../images/pexels-photo-408518.jpeg);
     background-size: cover;
     background-position: center;
-  
+
 }
-header::before{
+
+header::before {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -87,7 +93,8 @@ header::before{
     background: black;
     opacity: .65;
 }
-.title{
+
+.title {
     position: relative;
     text-align: center;
     width: 60%;
@@ -98,7 +105,8 @@ header::before{
 
 
 }
-.buscador{
+
+.buscador {
     position: relative;
     margin: auto;
     text-align: center;
@@ -107,7 +115,8 @@ header::before{
     height: 3.5em;
     border-radius: 1em;
 }
-.separador{
+
+.separador {
     display: inline-block;
     position: relative;
     margin: auto;
@@ -118,7 +127,7 @@ header::before{
     background: hsla(0, 0%, 0%, 0.37);
 }
 
-input.inputBuscador{
+input.inputBuscador {
     display: inline-block;
     position: relative;
     background: none;
@@ -129,17 +138,19 @@ input.inputBuscador{
     bottom: .15em;
     font-size: 1.5em;
 }
-.buscar{
+
+.buscar {
     display: inline-block;
     position: relative;
-   text-decoration: none;
-   color: hsla(0, 0%, 39%, 0.712); 
-   font-size: 200%;
-   
+    text-decoration: none;
+    color: hsla(0, 0%, 39%, 0.712);
+    font-size: 200%;
+
 }
+
 /**** Header ****/
 /**** SearchResults ****/
-.searchTerm{
+.searchTerm {
     position: relative;
     margin: auto;
     text-align: center;
@@ -148,16 +159,18 @@ input.inputBuscador{
     margin-bottom: .4em;
     color: rgb(150, 150, 150);
 }
-.searchSeparator{
+
+.searchSeparator {
     position: relative;
     background: hsla(0, 0%, 0%, 0.192);
     margin: auto;
     width: 95%;
     height: .45em;
 }
+
 /**** SearchResults ****/
 /**** Galery ****/
-.galery{
+.galery {
     margin: auto;
     width: 95%;
     padding-top: 2em;
@@ -165,12 +178,14 @@ input.inputBuscador{
     flex-wrap: wrap;
     align-content: flex-start;
     align-items: flex-start;
-   
+
 }
-.Con{
+
+.Con {
     background: lightblue;
 }
-.imgGal{
+
+.imgGal {
     margin-bottom: 1em;
     width: 29.4em;
     height: fit-content;
@@ -180,15 +195,90 @@ input.inputBuscador{
     border-radius: 1%;
 }
 
+/**** Description ****/
 
+.description {
+    opacity: 0;
+    position: fixed;
+    display: block;
+    left: 25%;
+    width: 50%;
+    height: 45em;
+    top: 8%;
+    background: grey;
+    overflow-y: scroll;
+}
+
+.imgMain {
+    width: 50%;
+    display: block;
+    
+    margin: auto;
+    margin-top: 5%;
+}
+
+.txtDescription {
+    font-size: 1em;
+    margin: auto;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    text-align: center;
+}
+
+.separatorDescription {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 80%;
+    height: .2em;
+    background: darkgrey;
+}
+
+.desImgContainer {
+    top: 5%;
+    margin: auto ;
+    width: 90%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.autorName {
+    display: block;
+    font-size: 1.8em;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.imgRecommend {
+    width: 30%;
+    margin-left: .5%;
+    margin-right: .5%;
+    margin-bottom: 1%;
+    align-self: flex-start;
+}
+.descripClose{
+    position: absolute;
+    display: block;
+    font-size: 2em;
+    left: 90%;
+}
+
+/**** Description ****/
 /**** Galery ****/
-@media (max-width: 545px){
+@media (max-width: 545px) {
+
     /**** top ****/
-    .top{
+    .top {
         overflow-y: visible;
         z-index: 6;
     }
-    .topNav{
+
+    .topNav {
         display: block;
         background: rgb(29, 29, 29);
         width: 100%;
@@ -196,73 +286,86 @@ input.inputBuscador{
         width: 50%;
         right: -50%;
         transition: .5s;
-        
+
     }
-    .topNavItem{
+
+    .topNavItem {
         font-size: 2em;
         display: block;
         align-content: center;
         justify-content: center;
         margin-bottom: 1.5em;
     }
-    .mobMenuClose{
+
+    .mobMenuClose {
         position: absolute;
         font-size: 1.5em;
         top: .5em;
         right: .5em;
         color: white;
     }
-    .mobMenu{
+
+    .mobMenu {
         position: absolute;
         top: .5em;
         left: 90%;
         font-size: 1.5em;
     }
+
     /**** top ****/
 
     /**** header ****/
-    header{
+    header {
         overflow: hidden;
         padding-bottom: 8em;
-        
+
     }
-    
-    .title{
+
+    .title {
         padding-top: 35%;
         font-size: 1.45em;
     }
 
-    .buscar{
+    .buscar {
         font-size: 1em;
     }
-    .buscador{
+
+    .buscador {
         height: 3em;
     }
-    input.inputBuscador{
+
+    input.inputBuscador {
         font-size: 1.5em;
         width: 5.5em;
         border: currentColor;
     }
-    .separador{
+
+    .separador {
         right: 3%;
         height: 2em;
     }
+
     /**** header ****/
     /**** Galery ****/
-    .imgGal{
+    .imgGal {
         width: 97%;
     }
+
     /**** Galery ****/
 
 }
-@media (max-width: 1025px){
- /**** header ****/
- input.inputBuscador{
-    right: .5%;
-    
- }
- .buscar{
-     right: 2%;
- }
-/**** header ****/
+
+@media (max-width: 1025px) {
+
+    /**** header ****/
+    input.inputBuscador {
+        right: .5%;
+
+    }
+
+    .buscar {
+        right: 2%;
+    }
+
+    /**** header ****/
 }
