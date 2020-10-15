@@ -10,3 +10,7 @@ function mobMenuClose(){
     menu.style.right = "-50%";
 }
 
+
+function buscador(){
+    document.getElementById("busca").value = "";
+}

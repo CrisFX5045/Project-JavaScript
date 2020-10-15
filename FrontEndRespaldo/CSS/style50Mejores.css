@@ -11,6 +11,10 @@
     position: fixed;
     z-index: 99;
 }
+.error {
+    background-color: #ffffdd;
+    border: 2px solid #D8000C;
+}
 .mobMenu{
     position: absolute;
     left: 100%;
