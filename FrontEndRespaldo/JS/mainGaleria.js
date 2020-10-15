@@ -11,7 +11,7 @@ function mobMenuClose(){
 function buscador(){
     document.getElementById("busca").value = "";
 }
-function openDescription(){
+function openDescription(clickedId){
     let descrip = document.body.getElementsByClassName('description')[0]
     descrip.style.zIndex = "99";
     descrip.style.opacity = "100%";
@@ -20,6 +20,11 @@ function openDescription(){
     getElementsByClassName('descripClose')[0]
     closeBtn.style.zIndex = "99";
     closeBtn.style.opacity = "100%";
+
+    let imgTemp = document.getElementById(clickedId).getAttribute('src');
+    console.log(imgTemp);
+
+    let imgMain = document.getElementById('imgMain').src = imgTemp;
 }
 function closeDescrip(){
     let descrip = document.body.getElementsByClassName('description')[0]

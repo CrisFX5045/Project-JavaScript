@@ -57,7 +57,7 @@
     <Section>
         <span class="descripClose fas fa-times" onclick="closeDescrip()"></span>
             <div class="description">
-                <img class="imgMain" src="images/pexels-photo-2347011.jpeg" alt="img">
+                <img class="imgMain" id="imgMain" src="images/pexels-photo-2347011.jpeg" alt="img">
                 <h4 class="txtDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati aspernatur quae minima tenetur doloremque.</h4>
                 <div class="separatorDescription"></div>
                 <h5 class="autorName">Mas de Carlos H.</h5>
@@ -72,12 +72,12 @@
 
     <section class="galeria">
 
-        <a href="#image1"><img src="images/pexels-francesca-zama-5339066.jpg"  alt="" onclick="openDescription()"></a>
-        <a href="#image2"><img src="images//pexels-paul-ijsendoorn-33041.jpg" class="img-galeria" alt="" onclick="openDescription()"></a>
-        <a href="#image2"><img src="images/pexels-photo-2347011.jpeg" class="img-galeria" alt="" onclick="openDescription()">
-        <a href="#image2"><img src="images/pexels-benjamin-suter-3617457.jpg" class="img-galeria" alt="" onclick="openDescription()"></a>
-        <a href="#image2"><img src="images/woman-girl-eye-models-39819.jpeg" class="img-galeria" alt="" onclick="openDescription()"></a>
-        <a href="#image2"><img src="images/pexels-pixabay-462162.jpg" class="img-galeria" alt="" onclick="openDescription()"></a>
+        <a href="#image1"><img id="img1" src="images/pexels-francesca-zama-5339066.jpg"  alt="" onclick="openDescription(this.id)"></a>
+        <a href="#image2"><img id="img2" src="images//pexels-paul-ijsendoorn-33041.jpg" class="img-galeria" alt="" onclick="openDescription(this.id)"></a>
+        <a href="#image2"><img id="img3" src="images/pexels-photo-2347011.jpeg" class="img-galeria" alt="" onclick="openDescription(this.id)">
+        <a href="#image2"><img id="img4" src="images/pexels-benjamin-suter-3617457.jpg" class="img-galeria" alt="" onclick="openDescription(this.id)"></a>
+        <a href="#image2"><img id="img5" src="images/woman-girl-eye-models-39819.jpeg" class="img-galeria" alt="" onclick="openDescription(this.id)"></a>
+        <a href="#image2"><img id="img6" src="images/pexels-pixabay-462162.jpg" class="img-galeria" alt="" onclick="openDescription(this.id)"></a>
 
     </section>
 <article class="light-box" id="image1">

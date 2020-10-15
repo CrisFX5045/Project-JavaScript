@@ -4,7 +4,7 @@ function checkForm() {
     let hasErrors;
 
     let name = document.getElementById('password');
-    if (validator.isEmpty(name.value)) {
+    if (validator.isEmpty(name.value)) { 
         name.classList.add("error");
         let msg = document.createElement("span");
         msg.innerHTML = "Contraseña requerida";
