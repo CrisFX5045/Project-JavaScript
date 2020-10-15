@@ -15,6 +15,10 @@ body{
     text-align: center;
     
 }
+.error {
+    background-color: #ffffdd;
+    border: 2px solid #D8000C;
+}
 .quote-icon{
     color:white;
 }

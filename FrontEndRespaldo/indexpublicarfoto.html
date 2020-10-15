@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.1.1/validator.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="./css/stylepublicar.css">
     <title>Publicar foto</title>
@@ -26,20 +27,22 @@
             </div>
 
             <div>
-                <form class="formulario ">
-                    <input class="forpub" placeholder="Titulo de la foto">
+                <form class="formulario" action="" onsubmit="return checkForm(this);">
+                    
+                    <input class="submit-btn download-btn " type="submit" value="Enviar foto">
+                    <input class="forpub" id="titulo" placeholder="Titulo de la foto">
                     <br>
                     <br>
-                    <input class="forpub" placeholder="Descripción">
+                    <input class="forpub" id="descripcion" placeholder="Descripción">
                     <br>
                     <br>
-                    <input class="forpub" placeholder="Categoria">
+                    <input class="forpub" id="categoria" placeholder="Categoria">
                 </form>
             </div>
         </div>
     </section>
      
-
+    <script src="JS/mainPublicar.js"></script>
 </body>
 
 </html>
