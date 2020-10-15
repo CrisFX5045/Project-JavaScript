@@ -7,3 +7,7 @@ function mobMenuClose(){
     let menu = document.body.getElementsByClassName('topNav')[0];
     menu.style.right = "-60%";
 }
+
+function buscador(){
+    document.getElementById("busca").value = "";
+}
