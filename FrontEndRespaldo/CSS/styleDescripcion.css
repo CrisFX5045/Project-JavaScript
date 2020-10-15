@@ -10,9 +10,10 @@ body{
 
 h1{
 font-weight: 400;
-text-align: center;
+text-align: left;
 padding: 20px 0;
 font-size: 40px;
+color: white;
 
 }
 .linea{
@@ -99,6 +100,16 @@ font-size: 40px;
     text-align: center;
 }
 
+.about{
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+.contenedor{
+    background-color: gray;
+    height: 90%;
+    width: 90%;
+}
 @media screen and (max-width:400px){
     .galeria{
         grid-template-columns: repeat(auto-fit,minmaz(200px, 1fr));
@@ -108,7 +119,7 @@ font-size: 40px;
 
 top: 20px;
 right: 20px;
-
+f
 }
 }
 
