@@ -206,9 +206,8 @@ input.inputBuscador {
 /**** Description ****/
 
 .description {
-    opacity: 0;
+    display: none;
     position: fixed;
-    display: block;
     left: 25%;
     width: 50%;
     height: 45em;
