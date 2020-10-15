@@ -81,6 +81,7 @@ header{
     background: url(../images/Fondo-50Mejores.jpg);
     background-size: cover;
     background-position: center;
+    z-index: 2;
   
 }
 header::before{
@@ -142,6 +143,90 @@ input.inputBuscador{
    
 }
 /**** Header ****/
+
+/**** Description ****/
+
+.description {
+    display: block;
+    position: fixed;
+    left: 25%;
+    width: 50%;
+    height: 45em;
+    top: 8%;
+    background: hsla(0, 0%, 46%, 0.863);
+    overflow: visible;
+    overflow-y: scroll;
+    opacity: 0%;
+    transition: .5s;
+   border-radius: .5em;
+   z-index: 0;
+}
+
+
+.imgMain {
+    width: 50%;
+    display: block;    
+    margin: auto;
+    margin-top: 5%;
+}
+
+.txtDescription {
+    font-size: 1em;
+    margin: auto;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    text-align: center;
+}
+
+.separatorDescription {
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 80%;
+    height: .2em;
+    background: darkgrey;
+}
+
+.desImgContainer {
+    top: 5%;
+    margin: auto ;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.autorName {
+    display: block;
+    font-size: 1.8em;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.imgRecommend {
+    width: 30%;
+    margin-left: .5%;
+    margin-right: .5%;
+    margin-bottom: 1%;
+    align-self: flex-start;
+}
+.descripClose{
+    position: fixed;
+    font-size: 2em;
+    left: 90%;
+    top: 7%;
+    opacity: 0%;
+    transition: .5s;
+    color: grey;
+}
+.descripClose:hover{
+    color: red;    
+}
+
+/**** Description ****/
 /**** SearchResults ****/
 .searchTerm{
     position: relative;
@@ -263,6 +348,7 @@ input.inputBuscador{
         width: 100%;
     }
     /**** Galery ****/
+    
 
 }
 @media (max-width: 1025px){
@@ -285,4 +371,16 @@ input.inputBuscador{
    width: 21em; 
 }
 /**** Galeria ****/
+/**** Description ****/
+.description{
+    width: 80%;
+    left: 9%;
+}
+.imgMain{
+    width: 90%;
+}
+.imgRecommend{
+    width: 45%;
+}
+/**** Description ****/
 }

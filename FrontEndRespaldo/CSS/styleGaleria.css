@@ -82,6 +82,7 @@ header {
     background: url(../images/pexels-photo-408518.jpeg);
     background-size: cover;
     background-position: center;
+    z-index: 2;
 
 }
 
@@ -188,7 +189,7 @@ input.inputBuscador {
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 
 }
-.galeria img{
+.galeria img{ 
     width:100%;
     vertical-align: top;
     height: 300px;
@@ -206,20 +207,25 @@ input.inputBuscador {
 /**** Description ****/
 
 .description {
-    display: none;
+    display: block;
     position: fixed;
     left: 25%;
     width: 50%;
     height: 45em;
     top: 8%;
-    background: grey;
+    background: hsla(0, 0%, 46%, 0.863);
+    overflow: visible;
     overflow-y: scroll;
+    opacity: 0%;
+    z-index: 0;
+    transition: .5s;
+   border-radius: .5em;
 }
+
 
 .imgMain {
     width: 50%;
-    display: block;
-    
+    display: block;    
     margin: auto;
     margin-top: 5%;
 }
@@ -248,7 +254,6 @@ input.inputBuscador {
     margin: auto ;
     width: 90%;
     display: flex;
-    position: relative;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -269,10 +274,16 @@ input.inputBuscador {
     align-self: flex-start;
 }
 .descripClose{
-    position: absolute;
-    display: block;
+    position: fixed;
     font-size: 2em;
     left: 90%;
+    top: 7%;
+    opacity: 0%;
+    transition: .5s;
+    color: grey;
+}
+.descripClose:hover{
+    color: red;    
 }
 
 /**** Description ****/
@@ -375,4 +386,16 @@ input.inputBuscador {
     }
 
     /**** header ****/
+    /**** Description ****/
+    .description{
+        width: 80%;
+        left: 9%;
+    }
+    .imgMain{
+        width: 90%;
+    }
+    .imgRecommend{
+        width: 45%;
+    }
+    /**** Description ****/
 }

@@ -8,28 +8,43 @@ body{
   
 }
 .quote-section{
+    position: relative;
     padding: 4em;
     background: url(../images/pexels-photo-3957582.jpeg);
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
     text-align: center;
     
 }
+.quote-section::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background: black;
+    opacity: 45%;
+}
 .error {
+    position: relative;
     background-color: #ffffdd;
     border: 2px solid #D8000C;
 }
 .quote-icon{
+    position: relative;
     color:white;
 }
 
 .quote-text{
+    position: relative;
     font-weight: bold;
     color: #fff;
     font-size:xx-large;
     text-align: center;
 }
 .quote-text2{
+    position: relative;
     font-weight: bold;
     color: #fff;
     font-size:xx-large;
@@ -37,6 +52,7 @@ body{
 }
 
 .submit-btn{
+    position: relative;
     width: 32%;
     background: #f2f2f200;
     border: .1em solid #00bad2;
@@ -45,11 +61,12 @@ body{
     color:#00bad2;
 }
 .submit-btn:hover{
+    position: relative;
     background: #00bad2;
     color: #fff;
 }
-
 .download-btn{
+    position: relative;
     display: block;
     margin: auto;
     width: 17em;
@@ -65,12 +82,14 @@ body{
 
 /*registra foto*/
 .formulario{
+    position: relative;
     background: none;
     margin-top: 71px;
     border-top: grey;
     
 }
 .input-contenedor{
+    position: relative;
     margin-bottom: 15px;
     height: 260px;
     border-style: dashed;
