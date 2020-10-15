@@ -12,6 +12,10 @@ body {
     width: 100%;
     padding: 15px;
 }
+.error {
+    background-color: #ffffdd;
+    border: 2px solid #D8000C;
+}
 .formulario{
     background: #fff;
     margin-top: 150px;
