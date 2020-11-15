@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-11-2020 a las 23:29:35
+-- Tiempo de generación: 15-11-2020 a las 23:38:07
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.9
 
@@ -26,10 +26,10 @@ USE `proyecto_fotos`;
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `fotos`
+-- Estructura de tabla para la tabla `tb_fotos`
 --
 
-CREATE TABLE `fotos` (
+CREATE TABLE `tb_fotos` (
   `id_fotos` int(10) NOT NULL,
   `title` varchar(20) NOT NULL,
   `descripcion` varchar(200) NOT NULL,
@@ -62,9 +62,9 @@ CREATE TABLE `tb_users` (
 --
 
 --
--- Indices de la tabla `fotos`
+-- Indices de la tabla `tb_fotos`
 --
-ALTER TABLE `fotos`
+ALTER TABLE `tb_fotos`
   ADD PRIMARY KEY (`id_fotos`);
 
 --
@@ -78,9 +78,9 @@ ALTER TABLE `tb_users`
 --
 
 --
--- AUTO_INCREMENT de la tabla `fotos`
+-- AUTO_INCREMENT de la tabla `tb_fotos`
 --
-ALTER TABLE `fotos`
+ALTER TABLE `tb_fotos`
   MODIFY `id_fotos` int(10) NOT NULL AUTO_INCREMENT;
 
 --
